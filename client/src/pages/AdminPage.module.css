@@ -1,0 +1,139 @@
+/* #0a1929 */
+
+.nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a1929;
+    border-bottom: 3px solid #162738;
+    padding: 0 50px;
+  
+  }
+  
+  .navBlock {
+      display: flex;
+      align-items: center;
+  }
+  
+  .navLogo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .navUser {
+      color: #fff;
+      font-size: 20px;
+      margin-right: 20px;
+  }
+  
+  .navQueries {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 36px;
+    cursor: pointer;
+  }
+  
+  .navQueriesBlock {
+    position: relative;
+  }
+  
+  .navQueriesList {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 300px;
+    background-color: #fff;
+    z-index: 999;
+    border: 1px solid #0a1929;
+  }
+  
+  .navQueriesListHide {
+    display: none;
+  }
+  
+  .navQueriesItemBlock {
+    padding: 8px 4px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .navButton {
+      color: #db3131;
+      /* border-color: #db3131; */
+  }
+  
+  .adminBlock {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .leftNav {
+    padding-top: 48px;
+    width: 20%;
+    background-color: #0a1929;
+    height: 100vh;
+  }
+  
+  .leftNavBlock {
+    padding: 20px 0;
+    cursor: pointer;
+  }
+  
+  .leftNavBlock:hover {
+    background-color: #060e15;
+  }
+  
+  .leftNavTitle {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 36px;
+  }
+  
+  .dashboardBlock {
+    width: 80%;
+    padding: 48px;
+  }
+  
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .loginBLock {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+  }
+  
+  .loginTitle {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  
+  
+  .loginInput,
+  .passwordInput {
+      margin-bottom: 24px;
+  }
+  
+  .loginButton {
+      width: 100%;
+      height: 40px;
+  }
+  
+  .errorMessage {
+      text-align: center;
+      color: #db3131;
+  }

@@ -1,0 +1,17 @@
+.dashboardTitle {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 36px;
+  }
+  
+  .buttonBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    column-gap: 36px;
+  }
+
+  .orderBlock {
+    margin-top: 36px;
+  }

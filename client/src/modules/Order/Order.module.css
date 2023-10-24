@@ -1,0 +1,155 @@
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.orderTitle {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+
+.orderContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  margin-top: 36px;
+}
+
+.orderBlock {
+  display: flex;
+  column-gap: 24px;
+}
+
+.orderButtons {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+
+.mapWrapper {
+  background-color: blanchedalmond;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.mapInfoBlock {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 12px;
+  z-index: 999;
+  border-radius: 12px;
+  box-shadow: 2px 3px 18px 0px rgba(0, 0, 0, 0.5);
+}
+
+.mapInfoAdditional {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mapInfo {
+  width: 45%;
+}
+
+.mapInputs {
+  display: flex;
+  column-gap: 32px;
+}
+
+.mapButtonBlock {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 36px;
+}
+
+.buttonBlock {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carHeaderBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  width: 300px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  padding-left: 12px;
+  font-size: 16px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailsTitle {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.detailsBlock {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  border-radius: 18px;
+  border: 2px solid #d9d9d9;
+  padding: 20px;
+  width: 500px;
+}
+
+.detailsText {
+  font-size: 18px;
+}
+
+.detailTextBold {
+  font-weight: 600;
+}
+
+.modalWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.modalContainer {
+  padding: 24px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modalImage {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.modalTitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
